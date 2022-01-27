@@ -1,0 +1,61 @@
+{
+    "Self Hosting": {
+        "icon": "hdd-stack.svg",
+        "sites": {
+            "Nextcloud": {
+                "icon": "cloud.svg",
+                "url": "https://nextcloud.com/"
+            },
+            "Bitwarden": {
+                "icon": "key.svg",
+                "url": "https://github.com/dani-garcia/vaultwarden"
+            },
+            "Strato": {
+                "icon": "hdd.svg",
+                "url": "http://strato.de"
+            },
+            "Reverse Proxy": {
+                "icon": "arrow-clockwise.svg",
+                "url": "https://github.com/NginxProxyManager/nginx-proxy-manager"
+            }
+        }
+    },
+    "Dev": {
+        "icon": "code-square.svg",
+        "sites": {
+            "Notion Dev": {
+                "icon": "",
+                "url": "https://www.notion.so"
+            },
+            "GitHub": {
+                "icon": "github.svg",
+                "url": "http://github.com"
+            }
+        }
+    },
+    "Studium": {
+        "icon": "bookshelf.svg",
+        "sites": {
+            "THI": {
+                "icon": "house-door.svg",
+                "url": "https://thi.de"
+            },
+            "Moodle": {
+                "icon": "mortarboard.svg",
+                "url": "https://moodle.thi.de"
+            },
+            "Mail": {
+                "icon": "inbox.svg",
+                "url": "https://exchange.thi.de"
+            },
+            "Stundenplan": {
+                "icon": "kanban.svg",
+                "url": "https://www3.primuss.de/stpl/index.php?FH=fhin&Language=de"
+            },
+            "Primuss": {
+                "icon": "",
+                "url": "https://www3.primuss.de/cgi-bin/login/index.pl?FH=fhin"
+            }
+        }
+    }
+}
