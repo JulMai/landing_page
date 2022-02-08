@@ -1,4 +1,0 @@
-version: "3.0"
-services:
-  landing_page:
-    image: jealousmaiden/landing_page_self_hosting:latest

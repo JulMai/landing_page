@@ -1,0 +1,7 @@
+version: "3.0"
+services:
+  landing_page:
+    image: landing_page
+    ports:
+    - "80:80"
+    - "443:443"
