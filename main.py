@@ -1,11 +1,10 @@
-import sys                                                                                     
 from flask import Flask, render_template                                                                           
 import json                                                                                                     
 app = Flask(__name__)                                                                                
                                                                                                      
                                                                                                      
 @app.route("/")                                                                                      
-def hello():                                                                                         
+def index():                                                                                         
     with open('sites.json') as f:
         dict_sites = json.load(f)    
         return render_template('index.html', dict_sites=dict_sites)                                                                                
